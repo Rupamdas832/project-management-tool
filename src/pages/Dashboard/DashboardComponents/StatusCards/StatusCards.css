@@ -1,0 +1,28 @@
+.StatusContainer {
+  display: flex;
+  align-items: center;
+  padding: 0px 30px 10px 10px;
+  justify-content: space-between;
+}
+
+.statusCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  width: 150px;
+  height: 120px;
+  box-shadow: var(--boxShadow);
+  background-color: white;
+  border-radius: 3px;
+}
+
+.statusCard h2 {
+  font-size: 2.5rem;
+}
+
+.statusCard.delayed {
+  background-color: var(--lightRed);
+  color: var(--white);
+}

@@ -1,0 +1,39 @@
+{
+  "profiles": [
+    {
+      "id": 1,
+      "name": "Anjali",
+      "designation": "UX Junior",
+      "profile_image": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8cHJvZmlsZSUyMHBpY3R1cmV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+      "mood": 2
+    },
+    {
+      "id": 2,
+      "name": "Arjun",
+      "designation": "Backend Developer",
+      "profile_image": "https://images.unsplash.com/photo-1463453091185-61582044d556?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fHByb2ZpbGUlMjBwaWN0dXJlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+      "mood": 4
+    },
+    {
+      "id": 3,
+      "name": "Joya",
+      "designation": "UX Senior",
+      "profile_image": "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fHByb2ZpbGUlMjBwaWN0dXJlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+      "mood": 3
+    },
+    {
+      "id": 4,
+      "name": "Jubin",
+      "designation": "Marketing",
+      "profile_image": "https://media.istockphoto.com/id/1406197730/photo/portrait-of-a-young-handsome-indian-man.jpg?b=1&s=170667a&w=0&k=20&c=KtmKHyOE6MJV0w2DiGX8P4399KHNbZ3p8lCjTEabGcY=",
+      "mood": 0
+    },
+    {
+      "id": 5,
+      "name": "Manoj",
+      "designation": "Frontend Developer",
+      "profile_image": "https://images.unsplash.com/photo-1603415526960-f7e0328c63b1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8cHJvZmlsZSUyMHBpY3R1cmV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+      "mood": 1
+    }
+  ]
+}

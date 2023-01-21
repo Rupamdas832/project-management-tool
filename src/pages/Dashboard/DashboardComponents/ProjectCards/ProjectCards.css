@@ -1,0 +1,112 @@
+.projectCardsContainer {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 30px 10px 10px;
+}
+
+.projectCardsHeader {
+  display: flex;
+  align-items: center;
+}
+
+.projectAddButton {
+  padding: 5px 8px;
+  background: none;
+  border: none;
+  color: white;
+  background-color: var(--heroColorBlue);
+  border-radius: 4px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.projectButton {
+  padding: 5px 8px;
+  background: none;
+  border: none;
+  color: var(--heroColorBlue);
+  border: 1px solid var(--heroColorBlue);
+  border-radius: 4px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.projectCards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  row-gap: 15px;
+  column-gap: 15px;
+  margin-top: 20px;
+}
+
+.projectElement {
+  display: flex;
+  flex-direction: column;
+  width: 280px;
+  padding: 10px 15px;
+  background-color: white;
+  box-shadow: var(--boxShadow);
+  border-radius: 4px;
+}
+
+.projectAssigneeElement {
+  color: var(--grey);
+  font-size: 0.8rem;
+  margin-bottom: 10px;
+}
+
+.projectBudgetElement {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  width: 250px;
+  margin-top: 10px;
+  color: var(--grey);
+}
+
+.projectBudget {
+  color: black;
+}
+
+.projectProgressElement {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 0;
+}
+
+.projectProgressBarBackground {
+  width: 100%;
+  height: 15px;
+  border-radius: 8px;
+  position: relative;
+  overflow: hidden;
+}
+
+.projectProgressBarBackground.FIRST_HALF {
+  background-color: var(--lightYellow);
+}
+.projectProgressBarBackground.SECOND_HALF {
+  background-color: var(--lightHeroColorBlue);
+}
+
+.projectProgressBar {
+  height: 100%;
+}
+
+.projectProgressBar.FIRST_HALF {
+  background-color: var(--yellow);
+}
+.projectProgressBar.SECOND_HALF {
+  background-color: var(--heroColorBlue);
+}
+.projectProgressBar.EXCEEDS {
+  background-color: var(--red);
+}
+
+.projectHourElement {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  font-size: 0.8rem;
+  color: var(--grey);
+}

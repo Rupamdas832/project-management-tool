@@ -1,0 +1,63 @@
+.teamsContainer {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  box-shadow: var(--boxShadow);
+  padding: 20px 30px;
+  border-radius: 4px;
+}
+
+.member-item {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0;
+}
+
+.member-body {
+  display: flex;
+  align-items: center;
+}
+
+.member-image {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.member-image img {
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+}
+
+.member-data {
+  margin-left: 10px;
+}
+
+.member-name {
+  font-size: 0.8rem;
+}
+
+.member-desg {
+  font-size: 0.7rem;
+  color: var(--grey);
+}
+
+.memberMoodElemnet {
+  margin-top: 10px;
+  padding: 4px 10px;
+}
+
+.memberMoodLine {
+  height: 2px;
+  width: 100%;
+  background-color: rgb(214, 214, 214);
+  position: relative;
+}
+
+.memberMoodEmoji {
+  position: absolute;
+  top: -10px;
+  display: flex;
+  justify-content: flex-end;
+}

@@ -1,0 +1,59 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "title": "Insurance App",
+      "total_budget": 7000,
+      "profitable": 4000,
+      "actual_hours": 1100,
+      "sold_hours": 1000,
+      "status": "DELAYED",
+      "assignee_id": 1,
+      "assignee_name": "Anjali"
+    },
+    {
+      "id": 2,
+      "title": "Neo",
+      "total_budget": 7000,
+      "profitable": 4000,
+      "actual_hours": 200,
+      "sold_hours": 1100,
+      "status": "ONGOING",
+      "assignee_id": 4,
+      "assignee_name": "Jubin"
+    },
+    {
+      "id": 3,
+      "title": "VR Website",
+      "total_budget": 7000,
+      "profitable": 4000,
+      "actual_hours": 2000,
+      "sold_hours": 2000,
+      "status": "COMPLETED",
+      "assignee_id": 2,
+      "assignee_name": "Arjun"
+    },
+    {
+      "id": 4,
+      "title": "Saas project",
+      "total_budget": 7000,
+      "profitable": 4000,
+      "actual_hours": 800,
+      "sold_hours": 1500,
+      "status": "ONGOING",
+      "assignee_id": 3,
+      "assignee_name": "Joya"
+    },
+    {
+      "id": 5,
+      "title": "E-Commerce app",
+      "total_budget": 7000,
+      "profitable": 4000,
+      "actual_hours": 100,
+      "sold_hours": 2000,
+      "status": "ONGOING",
+      "assignee_id": 5,
+      "assignee_name": "Manoj"
+    }
+  ]
+}
